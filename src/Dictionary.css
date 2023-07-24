@@ -1,1 +1,12 @@
-
+.Dictionary h1 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.Dictionary .dictionary-form input {
+  width: 75%;
+  border-radius: 5px;
+  border-style: none;
+  padding: 7px 10px;
+  margin-bottom: 30px;
+}

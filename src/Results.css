@@ -1,0 +1,9 @@
+.Results section {
+  background-color: #fff;
+  width: 75%;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 20px;
+}

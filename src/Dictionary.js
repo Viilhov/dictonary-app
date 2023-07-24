@@ -8,8 +8,6 @@ export default function Dictionary() {
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data);
-
     setResults(response.data);
   }
   function search(event) {
@@ -25,11 +23,12 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <p>What would you like to look up?</p>
-      <form className="dictionaryForm" onSubmit={search}>
+      <h1>What would you like to look up?</h1>
+      <form className="dictionary-form" onSubmit={search}>
         <input
           type="search"
           placeholder="Type a word"
+          className="shadow"
           onChange={handleKeyword}
         />
       </form>{" "}

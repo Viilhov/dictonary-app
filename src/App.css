@@ -1,1 +1,13 @@
-
+.App {
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  color: #005689;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.App a {
+  color: #ff895d;
+}

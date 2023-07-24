@@ -3,10 +3,7 @@ import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App container">
-      <header className="App-header mt-5 mb-4">
-        <h1>Dictionary app</h1>
-      </header>
+    <div className="App">
       <main>
         <Dictionary />
       </main>
