@@ -9,4 +9,12 @@
   border-style: none;
   padding: 7px 10px;
   margin-bottom: 30px;
+  color: #005689;
+}
+.Dictionary .dictionary-form input:focus {
+  color: #005689;
+  outline-color: rgba(0, 86, 137, 0.5);
+}
+.Dictionary .dictionary-form input::placeholder {
+  color: rgba(0, 86, 137, 0.7);
 }
