@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Cordoba" />
       </main>
       <footer className="Footer mt-3">
         <p>
